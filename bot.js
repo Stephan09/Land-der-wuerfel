@@ -53,7 +53,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === prefix + 'youtube') {
-       message.channel.send('Hier ist der link zum Land der würfel-Land of cubes youtube channel: https://www.youtube.com/channel/UCqwdPlnNVnfv7VhyHhJWo6g;)');
+       message.channel.send('Hier ist der link zum Land der würfel-Land of cubes youtube channel: https://www.youtube.com/channel/UCqwdPlnNVnfv7VhyHhJWo6g ;)');
        }
 }); 
 
