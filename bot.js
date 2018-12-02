@@ -36,6 +36,18 @@ client.on('message', message => {
 
 
 client.on('message', message => {
+
+    if (message.content === 'hallo') {
+
+       message.channel.send('Hallo ;)');
+
+       }
+
+});
+
+
+
+client.on('message', message => {
     if (message.content === prefix + 'steam') {
        message.channel.send('Hier ist der link zum Creativerse Steam Forum: https://steamcommunity.com/app/280790/ ;)');
        }
