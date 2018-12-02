@@ -37,16 +37,10 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'hallo') {
-       message.channel.send('Hallo ;)');
+       message.channel.send('Hallo ');
        }
 });
 
-
-client.on('message', message => {
-    if (message.content === 'hallo') {
-       message.reply('Hallo');
-       }
-});
 
 
 
