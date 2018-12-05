@@ -43,6 +43,13 @@ client.on('message', message => {
 
 
 
+client.on('message', message => {
+    if (message.content === 'dev.starting shard 1') {
+       message.reply('starting shard 1 of 1');
+       }
+});
+
+
 
 client.on('message', message => {
     if (message.content === prefix + 'steam') {
